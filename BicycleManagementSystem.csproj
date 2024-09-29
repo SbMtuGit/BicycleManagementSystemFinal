@@ -1,0 +1,136 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Oracle.ManagedDataAccess\**" />
+    <Compile Remove="System.Diagnostics.PerformanceCounter\**" />
+    <Compile Remove="System.DirectoryServices.Protocols\**" />
+    <Compile Remove="System.DirectoryServices\**" />
+    <EmbeddedResource Remove="Oracle.ManagedDataAccess\**" />
+    <EmbeddedResource Remove="System.Diagnostics.PerformanceCounter\**" />
+    <EmbeddedResource Remove="System.DirectoryServices.Protocols\**" />
+    <EmbeddedResource Remove="System.DirectoryServices\**" />
+    <None Remove="Oracle.ManagedDataAccess\**" />
+    <None Remove="System.Diagnostics.PerformanceCounter\**" />
+    <None Remove="System.DirectoryServices.Protocols\**" />
+    <None Remove="System.DirectoryServices\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include=".rsrc\version.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".rsrc\MANIFEST\1" />
+    <None Include=".suo~\AnalysisScope-DCE33A29A768" />
+    <None Include=".suo~\ApplicationInsights" />
+    <None Include=".suo~\BackgroundLoadData" />
+    <None Include=".suo~\BookmarkState" />
+    <None Include=".suo~\CDExportDialogSetting" />
+    <None Include=".suo~\ClassViewContents" />
+    <None Include=".suo~\DebuggerBreakpointGroups" />
+    <None Include=".suo~\DebuggerBreakpoints" />
+    <None Include=".suo~\DebuggerBreakpointsWindow" />
+    <None Include=".suo~\DebuggerExceptions" />
+    <None Include=".suo~\DebuggerExtendedExceptions" />
+    <None Include=".suo~\DebuggerFindSource" />
+    <None Include=".suo~\DebuggerFindSymbol" />
+    <None Include=".suo~\DebuggerMemoryWindows" />
+    <None Include=".suo~\DebuggerWatches" />
+    <None Include=".suo~\DebuggerWinstoreAppMonitor" />
+    <None Include=".suo~\DiagToolWindow.v3" />
+    <None Include=".suo~\DNLPDialogOpened" />
+    <None Include=".suo~\DocumentWindowPositions" />
+    <None Include=".suo~\DotNetCounters.v5" />
+    <None Include=".suo~\Expression-E58C2A8C" />
+    <None Include=".suo~\ExternalFilesProjectContents" />
+    <None Include=".suo~\FAE04EC1-301F-11D3_ProjState" />
+    <None Include=".suo~\FAE04EC1-301F-11D3_TFMCaps" />
+    <None Include=".suo~\HiddenSlnFolders" />
+    <None Include=".suo~\MRU Solution Files" />
+    <None Include=".suo~\nuget" />
+    <None Include=".suo~\ObjMgrContentsV8" />
+    <None Include=".suo~\OutliningStateDir" />
+    <None Include=".suo~\OutliningStateV16710" />
+    <None Include=".suo~\OutliningStateV16711" />
+    <None Include=".suo~\OutliningStateV16712" />
+    <None Include=".suo~\OutliningStateV16713" />
+    <None Include=".suo~\OutliningStateV16714" />
+    <None Include=".suo~\OutliningStateV16715" />
+    <None Include=".suo~\OutliningStateV16716" />
+    <None Include=".suo~\OutliningStateV16717" />
+    <None Include=".suo~\OutliningStateV16718" />
+    <None Include=".suo~\OutliningStateV16719" />
+    <None Include=".suo~\OutliningStateV16720" />
+    <None Include=".suo~\OutliningStateV16721" />
+    <None Include=".suo~\OutliningStateV16722" />
+    <None Include=".suo~\OutliningStateV16723" />
+    <None Include=".suo~\OutliningStateV16724" />
+    <None Include=".suo~\OutliningStateV16725" />
+    <None Include=".suo~\OutliningStateV16726" />
+    <None Include=".suo~\OutliningStateV16728" />
+    <None Include=".suo~\OutliningStateV16729" />
+    <None Include=".suo~\OutliningStateV1673" />
+    <None Include=".suo~\OutliningStateV16730" />
+    <None Include=".suo~\OutliningStateV1674" />
+    <None Include=".suo~\OutliningStateV1675" />
+    <None Include=".suo~\OutliningStateV1676" />
+    <None Include=".suo~\OutliningStateV1677" />
+    <None Include=".suo~\OutliningStateV1678" />
+    <None Include=".suo~\OutliningStateV1679" />
+    <None Include=".suo~\ProjectDesigner" />
+    <None Include=".suo~\ProjectsLoadInSolutionOpen" />
+    <None Include=".suo~\ProjectTrustInformation" />
+    <None Include=".suo~\ProjExplorerState" />
+    <None Include=".suo~\ProjInfoEx" />
+    <None Include=".suo~\QToolsPackageDataKey" />
+    <None Include=".suo~\QToolsTuipPackage.DataKey" />
+    <None Include=".suo~\SccProvider.Solution.LastBranch" />
+    <None Include=".suo~\SccProvider.Solution.LoadCount" />
+    <None Include=".suo~\SearchMostRecentQueriesList" />
+    <None Include=".suo~\SolutionConfiguration" />
+    <None Include=".suo~\SolutionControlOptions" />
+    <None Include=".suo~\TaskListShortcuts" />
+    <None Include=".suo~\UnloadedProjects" />
+    <None Include=".suo~\UnloadedProjectsDev14" />
+    <None Include=".suo~\UnloadedProjectsEx" />
+    <None Include=".suo~\VsToolboxService" />
+    <None Include=".suo~\WindowManager.CustomGroupNames" />
+    <None Include=".suo~\WindowManager.CustomTooltips" />
+    <None Include=".suo~\WindowManager.PinnedFrames" />
+    <None Include=".suo~\WindowManager.VertTabListWidths" />
+    <None Include=".suo~\WindowManager.WhenOpened" />
+    <None Include=".suo~\WorkflowDesigner" />
+    <None Include=".suo~\XamlLanguage-E58C2A8C" />
+    <None Include=".suo~\XmlPackageOptions" />
+    <None Include=".suo~\[Editor] Last Edit Location" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.140" />
+    <PackageReference Include="System.Runtime" Version="4.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
